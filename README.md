@@ -5,3 +5,7 @@
 
 [Wiring & Installation](https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-breakout/python-circuitpython)
 
+### Python Installation of SHT31D Library
+
+You'll need to install the Adafruit_Blinka library that provides the CircuitPython support in Python. This may also require enabling I2C on your platform and verifying you are running Python 3.
+`sudo pip3 install adafruit-circuitpython-sht31d`
