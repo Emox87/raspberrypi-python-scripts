@@ -13,7 +13,7 @@ client = MongoClient(url)
 db = client.room
 collection = db.fan
 query_data = {
-        'time': datetime.daytime.now(),
+        'time': datetime.datetime.now(),
         'log': 'Fan has been started'
 }
 result = collection.insert_one(query_data)
